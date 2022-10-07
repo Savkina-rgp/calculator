@@ -1,0 +1,714 @@
+// переменные
+// canelCase
+//const firstName = 'Vova'
+//const lastName = 'Sav' // string
+//let age = 8 // number
+//const isProgramer = true // boolean
+
+//const $ = 'some value'
+
+// const if = 'mkef'// err
+//const withNum5 = '5'
+// const 5withNum = 5  // err
+
+// 2 мутирование
+//console.log(' Имя человека: ' + firstName + ' , фамилия человека: ' + lastName )
+//console.log(' Имя человека: ' + firstName + ' , фамилия человека: ' + lastName )
+//alert.log(' Имя человека: ' + firstName + ' , фамилия человека: ' + lastName ) 
+//alert(' Имя человека: ' + firstName + ' , фамилия человека: ' + lastName ) 
+//console.log(' возраст человекаа ' + age)
+//console.log(' возраст человекаа ' + age)
+//console.log(age.toString())
+
+//const lastName =  prompt('введите фамилию')
+//alert(firstName + '' + lastName)
+
+// 3 операторы
+//const curretYear = 2022
+//const birthYear = 2005
+
+//const age = curretYear - birthYear
+//const age = curretYear + birthYear
+//console.log(age)
+
+//const a = 10
+//const b = 5
+
+//let c = 32
+//c = c + a
+//c = c - a
+//c = c * a
+//c = c / a
+//c + = a
+//c - = a
+//c * = a
+//c / = a
+
+//console.log(a + b)
+//console.log(a - b)
+//console.log(a * b)
+//console.log(a / b)
+//console.log(currentYear++)
+//console.log(currentYear)
+//console.log(++currentYear)
+//console.log(--currentYear)
+//console.log(c)
+
+// 4 типы данных
+//const isProgramer = true 
+//const name = 'Vova'
+//const age = 8
+//let x
+//null
+//console.log(typeof isProgramer)
+//console.log(typeof name)
+//console.log(typeof age)
+//console.log(typeof x)
+//console.log(typeof null)
+//console.log(typeof Object)
+//console.log(null)
+
+// 5 приоритет опеератора
+//const fullAge = 16
+//const birthYear = 2005
+//const currentYear = 2022
+
+// > < >= <=
+//const isFullAge = currentYear - birthYear >= fullAge // 16 >= 17 => true
+//console.log(isFullAge)
+
+// 6 условные операторы
+//const coursStatus = 'pending' // ready, fail, pending
+
+//if (coursStatus === 'ready') {
+//console.log('Курс готов')
+//} else if (coursStatus === 'pending') {
+//console.log('Курс находится в процессе разработки')
+//} else {
+//    console.log('Курс не получился')
+//}
+
+//const isReady = false
+
+//if (isReady === true) {
+  // console.log('Все готово')
+//} else {
+   // console.log('Все не готово')
+//}
+
+// тернарное выражение
+//isReady ? console.log('Все готово') : console.log('Все не готово')
+
+//const num1 = 42 // number
+//const num2 = '42' // string
+
+//console.log(num1 === num2)
+
+
+// 7 булевая логика
+//true & true
+//true & false
+//false & true
+//false & false
+//true || true
+//true || false
+//false || true
+//false || false
+//!true
+//!!true
+//!false
+//!!false
+
+// 8 функция
+
+
+//function calculatorAge(year){
+//  return 2022 - year
+//}
+
+//console.log(calculatorAge(2005))
+//console.log(calculatorAge(2014))
+//console.log(calculatorAge(2018))
+
+
+
+//function logInAbout(name, year) {
+// const age= calculatorAge(year)
+ 
+// if (age > 0) {
+// console.log('Человек по имени' + name + 'сейчас имеет возраст' + age)
+// } else {
+//  console.log('Вообще-то это уже будущее ')
+// }
+//}
+
+//logInfoAbout( name: 'Саша', year: 2005)
+//logInfoAbout( name: 'Вова', year: 2014)
+//logInfoAbout( name: 'Надя', year: 2018)
+
+// 9 массивы
+//const cars = ['мадза', 'мерседес']
+//console.log(cars)
+//const cars = new Array('мадза', 'мерседес')
+//console.log(cars)
+//console.log(cars[1])
+//console.log(cars[0])
+
+//cars[0] = 'Porsche'
+//cars[2] = 'mazda'
+//cars[cars.length] = 'BMW'
+//console.log(cars)
+
+// 10 циклы
+//const cars = ['мадза', 'мерседес', 'BMW']
+
+//for (let i = 0; i < cars.length; i++) {
+//  console.log(i)
+//  const car = cars[i]
+//  console.log(car)
+//}
+
+//for (let car of cars) {
+//  console.log(car)
+//}
+
+// 11 объекты
+//const person = {
+//  firstName: 'Sasha',
+//  lastName: 'Sav',
+//  year: 2005,
+//  languages: ['Ru'],
+//  hasWife: false,
+ // greet: function() {
+//    console.log('greet from persone')
+//  }
+//}
+//
+//console.log(person.firstName)
+//console.log(person['lastName'])
+//const key = 'languages'
+//const tot = 'year'
+//console.log(person[tot])
+//console.log(person[key])
+//person.haswife = true
+//person.isProgrammer =true
+//console.log(person)
+//
+//person.greet()
+
+
+// number
+//const num = 14 // integer
+//const tot = 15.14 //tot
+//const pow = 7e5
+//console.log(num)
+//console.log(tot)
+//console.log(pow)
+//
+//console.log('MAX_SAFE_INTEGER', Number.MAX_SAFE_INTEGER)
+//console.log('Math.pow 53', Math.pow(x=2 , y=53 ) - 1)
+//console.log('MAX_SAFE_INTEGER', Number.MIN_SAFE_INTEGER)
+//console.log('MAX_VALUE', Number.MAX_VALUE)
+//console.log('MIN_VALUE', Number.MIN_VALUE)
+//console.log('POSITIVE_INFINIT', Number.POSITIVE_INFINITY)
+//console.log('NEGATIVE_INFINIT', Number.NEGATIVE_INFINITY)
+//console.log('1 / 0', 2 / 0)
+//console.log(Number.NaN) 
+//console.log(typeofNaN) 
+//const weird = 3 / undefined
+//console.log(Number.isNaN(weird)) 
+//console.log(Number.isNaN(24)) 
+//console.log(Number.isFinite(InFinite)) 
+//console.log(Number.isFinite(24)) 
+//
+//const stringInt = '42'
+//const stringFloat = '42.42'
+//console.log(Number.parseInt(stringInt) + 2)
+//console.log(parseInt(stringInt) + 2)
+//console.log(Number(stringInt) + 2)
+//console.log(+stringInt + 2)
+//console.log(parseInt(stringFloat) + 2)
+//console.log(parseFloat(stringFloat) + 2)
+//console.log(+stringFloat + 2)
+//
+//console.log(0.4 + 0.2) // 0.6
+//console.log((4 / 10) + (1 / 5))
+//console.log((0.4 + 0.2).toFixed(1))
+//console.log(parseFloat((0.4 + 0.2).toFixed(1)))
+//
+//
+// BigInt
+//console.log(typeof 992000014255459999999n) 
+//console.log(992000014255459999999n - 99200001425459999999n) 
+//console.log(-992000014255459999999n) 
+
+//console.log(19n -3)  // error
+//console.log(parseInt(19n) - 3)
+//console.log(19n - BigInt(3))
+//console.log(12n / 3n) 
+
+// 3 Math
+//console.log(Math.E) 
+//console.log(Math.PI) 
+
+//console.log(Math.sqrt (x=25))
+//console.log(Math.pow (x=5, y=3))
+//console.log(Math.abs(x=42)) 
+//console.log(Math.max(42, 12, 45, 134)) 
+//console.log(Math.min(42, 12, 45, 134)) 
+//console.log(Math.floor(x=4,9))
+//console.log(Math.ceil(x=4,9))
+//console.log(Math.round(x=4,9))
+//console.log(Math.trunc(x=4,9))
+//console.log(Math.random())
+//
+// 4 exsemple
+//function getRandomRetween(min, max){
+//    return Math.floor(Math.random() * (max-min+1) + min)
+//}
+//
+//console.log(getRandomRetween(10, 42))
+
+// строки
+//const name = 'sasha'
+//const age = 16
+//
+//function getAge() {
+//    return age
+//}
+//
+//const output = 'Привет, меня зовут ' + name + ' и мой возраст '+ age + ' лет.'
+//const output = `привет, меня зовут ${name} и мой возраст ${getAge()} лет`
+//console.log(output)
+//const output = `
+//  <div>This is div</div>
+//  <p>this is o</p>
+//`
+
+//onsole.log(output)
+
+//const name = 'sasha'
+//console.log(name.length)
+//console.log(name.toUpperCase())
+//console.log(name.toLowerCase())
+//console.log(name.chartAt(0))
+//console.log(name.indexOf('ha'))
+//console.log(name.indexOf('!'))
+//console.log(name.startsWish('sa'))
+//console.log(name.endsWish('ha'))
+//console.log(name.repeat(3))
+//const string = '     password     '
+//console.log(string.trim())
+//console.log(string.trimLeft())
+//console.log(string.trimRight())
+
+//function logPerson(y, name, age) {
+//    if (age < 0) {
+//        age = 'еще не родился'
+//    }
+//    return `${s(0)}${s(1)}${age}${s(2)}`
+//}
+//
+//const personName = 'sasha'
+//const personName2 = 'vova'
+//const personAge = 16
+//const personAge2 = -8
+//
+//const output = logPerson`имя: ${personName}, возраст: ${personAge}!`
+//const output2 = logPerson`имя: ${personName}, возраст: ${personAge}!`
+//
+//console.log(output)
+//console.log(output2)
+
+// 1 функции
+
+// function declaraction
+//function greet(name) {
+//    console.log('привет - ', name)
+//}
+//
+//function expression
+//const greet2 =  function greet2(name) {
+//    console.log('привет - ', name)
+//}
+//
+//greet(name = 'кай')
+//greet2(name = 'тэрок')
+
+//console.log(typeof greet)
+//console.dir(greet)
+
+// 2 анонимные функции
+//let counter = 0
+//const interval = setInterval(function() {
+//    if (counter === 5) {
+//        clearInterval(interval) // clearTimeout
+//    } else {
+//        console.log(++counter)
+//   }
+//}, 1000)
+
+// 3 стрелочные функции
+//function greet(name) {
+//    console.log('привет - ', name)
+//}
+
+//const arrow = () => {
+//    console.log('привет - ', name)
+//}
+
+//const arrow2 = () => console.log('привет - ', name)
+
+//arrow2( name = sasha)
+
+//const pow2 = num => num ** 2
+
+//console.log(pow2(num = 5))
+
+// 4 параметры по умолчанию
+//const sum = (a = 40, b = a * 2) => a + b
+
+//console.log(sum( a = 41, b = 4))
+//console.log(sum())
+
+//function sunAll(...all) {
+//    let result = 0
+//    for (let num of all) {
+//        result += num
+//    }
+//    return result
+//}
+
+//const res = sunAll(1, 2, 3, 4, 5)
+//console.log(res)
+
+// 5 замыкание
+//function createMember(name) {
+//    return function(lastName) {
+//        console.log(name + lastName)
+//    }
+//}
+
+//const logWithlastName = createMember('sasha')
+//console.log(logWithlastName('sav'))
+//console.log(logWithlastName('kill'))
+
+// массивы
+//const cars = ['Lada', 'BMW', 'Ford', 'Mersedes']
+//const people = [
+//    {name : sasha, budget : 3200},
+//    {name : vova, budget : 3590},
+//    {name : nady, budget : 3900}
+//]
+//const fib = [1, 1, 2, 3, 45, 6, 9]
+
+// function
+//function addItemToEnd() {
+//
+//}
+
+// method
+//cars.push('Logan')
+//cars.unshift('Madza')
+//
+//const firstCar = cars.shift()
+//const lastCar = car.pop()
+//console.log(firstCar)
+//console.log(lastCars)
+//console.log(cars)
+
+//console.log(cars.reverse())
+//console.log(cars)
+
+//const indexOf = cars.indexOf('Ford')
+//cars[index] = 'BMV'
+//console.log(cars)
+//let findedPerson
+//for (const person of people) {
+//    if (persen.budget === 3200) {
+//        findedPerson = person
+//    }
+//}
+
+//console.log(findedPerson)
+
+//const index = people.findIndex(function(person) {
+//    return person.budget === 3590
+//})
+//console.log(people[index])
+//const person = people.find(function(person) {
+//   return person.budget === 3590
+//})
+//const person = people.find(person =>  person.budget === 3900)
+//console.log(persone)
+
+//console.log(cars.includes('Ford'))
+
+//const upperCaseCars = cars.map(car => {
+//    return car.toUpperCase()
+//})
+
+//const pow2 = num => num ** 2
+//const sqrt = num => Math.sqrt(num)
+//
+//const pow = fib.map(pow2).map(Math.sqrt)
+//console.log(pow)
+//console.log(upperCaseCars)
+//console.log(cars)
+//const pow = fib.map(pow2)
+//const filteredNumbers = pow2.filter(num => num > 30)
+//console.log(pow2)
+//console.log(filteredNumbers)
+
+
+//задача 1
+//const text = 'привет, мы нло'
+//const reverseText = text.split('').reverse().join('')
+//console.log(reverseText)
+
+//const people = [
+//    {name : sasha, budget : 3200},
+//    {name : vova, budget : 3590},
+//    {name : nady, budget : 3900}
+//]
+//
+//const allBudget = people
+//.filter(person => person.budget > 3200)
+//.reduce((acc, person) => {
+//    if (person.budget > 3200)
+//    acc += person.budget
+//    return acc
+//}, 0)
+//
+//console.log(allBudget)
+//
+//const displayItem = allItem.filter(item => item.name.indexOf('phone') !== -1)
+
+// объекты
+//const person = {
+//  name: 'sasha',
+//  age: 16,
+//  isProgrammer: true,
+//  languages: ['ru', 'en'],
+//  'Complex key': 'Complex Value',
+//  ['key_' + (1 + 3)]: 'Complex key', // key_4
+//  greet() {
+//      console.log('greet from person')
+//  },
+//  info() {
+//      console.log('tnis:', this)
+//      console.info('информация о человеке по имениЖ', tnis.name)
+//  }
+//}
+
+//const ageKey = 'age'
+//console.log(person['age'])
+//console.log(person['complex key'])
+//person.greet()
+//
+//person.age++
+//person.languages.push('by')
+//console.log(person)
+//person['key_4'] = undefined
+//delete person['key_4']
+//
+//console.log(person)
+//console.log(person['key_4'])
+
+//const name = person.name
+//const age = person.age
+//const languages = person.languages
+
+//const {name, age: personAge, languages} = person
+//console.log(person)
+
+//for (let key in person) {
+//    if (person.hasOwnProperty()) {
+//        console.log('key:', key)
+//        console.log('value:', person[key])
+//    }
+//}
+//Object.keys(person).forEach((key) => {
+//    console.log('key:', key)
+//    console.log('value:', person[key])
+//})
+  
+// context
+//person.info()
+
+//const logger = {
+//  keys() {
+//      console.log('Object Keys:', Object.keys(this))
+//  },
+//
+//  keysAndValues() {
+      // "keys": value
+      //Object.keys(this).forEach(key => {
+      //    console.log(`"${key}": ${this[keys]}`)
+      //})
+      //const self = this
+      //Object.keys(this).forEach(key => {
+      //    console.log(`"${key}": ${this[keys]}`)
+      //})
+  //},
+  //withParams(top = false, between = false, bottom = false) {
+      //if (top) {
+          //console.log('-------start-------')
+      //}
+      //Object.keys(this).forEach((key, index, array) => {
+          //console.log(`"${key}": ${this[keys]}`)
+          //if (between && index !== array.length - 1) {
+          //console.log('--------------')
+      //}
+  //})
+  
+      //if (bottom) {
+          //console.log('-------end-------')
+      //}
+  //}
+//}
+
+//const baund = logger.keys.bind(person)
+//baund()
+//logger.keysAndValues.call(person)
+//logger.withParams.call(person, true, true, true)
+//logger.withParams.apply(person, true, true, true)
+
+// асинхроность// event loop
+
+//const timeout = setTimeout(() => {
+//    console.log('After timeout')
+//}, 2500) 
+//
+//clearTimeout(timeout)
+//
+//const interval = setInterval(() => {
+//    console.log('After timeout')
+//}, 1000) 
+//
+//clearInterval(interval)
+
+//const delay = (callback, wait = 1000) => {
+//    setTimeout(callback, wait)
+//}
+
+//delay(() => {
+//    console.log('After 2 seconds')
+//}, wait = 2000)
+
+
+//const delay = (wait = 1000) => {
+//    const promise = new Promise((resolve, reject) => {
+//        setTimeout(() => {
+//            resolve()
+//            //reject('что-то пошло не так. Повторите попытку')
+//        }, wait)
+//    })
+//    return promise
+//}
+
+
+//delay(wait = 2500)
+//   .then(() => {
+//    console.log('After 2 seconds')
+//   })
+//   .catch(err => console.error('Error', err))
+//   .finally(() => console.log('Finally'))
+//
+//const getData = () => new Promise(resolve => resolve([
+//    1, 1, 2, 3, 5, 8, 18
+//]))
+//
+//getData().then(date => console.log(data))
+//
+//async function asynsExemple() {
+//    try {
+//     await delay(wait = 3000)
+//     const data = await getData()
+//     console.log('Data', data)
+//    } catch (e) {
+//     console.log(e)
+//    } finally {
+//        console.log('Finally')
+//    }
+//}
+
+//asynsExemple()
+
+const heading = document.getElementById('hello')
+//const heading2 = document.getElementsByTagName('h2')[0]
+//const heading2 = document.getElementsByClassName('h2-class')[0]
+//const heading2 = document.querySelector('.h2-class')
+//const heading2 = document.querySelector('#sub-hello') // всегда 1 элемент
+const heading2 = document.querySelector('h2') 
+
+console.dir(heading2)
+
+//const heading3 = heading2.nextElementSibling
+const h2List = document.querySelectorAll('h2')
+console.log(h2List)
+const heading3 = h2List[h2List.length - 1]
+console.log(heading3)
+
+
+setTimeout(() => {
+    addStylesTo(heading, text = 'биба', color = 'green')
+}, 1500)
+
+setTimeout(() => {
+    addStylesTo(heading2, text = 'и', color = 'red')
+}, 2000)
+
+const link = heading3.querySelector('a')
+
+link.addEventListener('click', (event) => {
+    event.preventDefault()
+    console.log('Click on link', event.target.getAttribute('href'))
+    const url = event.target.getAttribute('href')
+
+    window.location = url
+})
+
+
+setTimeout(() => {
+    addStylesTo(link, text = 'боба', color = 'pink', )
+}, timeout = 3000)
+
+function addStylesTo(node, text, color = 'red', fontSize) {
+heading.textContent = text
+heading.style.color = color
+heading.style.textAlign = 'center'
+heading.style.backgroundColor = 'black'
+heading.style.padding = '2rem'
+heading.style.display = 'block'
+heading.style.width = '100%'
+
+if(fontSize){
+    node.stile.fontSize = fontSize
+   }
+}
+
+
+
+heading.onclick = () => {
+    if (heading.style.color === 'green') {
+        heading.style.color = '#000'
+        heading.style.backgroundColor = '#fff'
+    } else {
+        heading.style.color = 'red'
+        heading.style.backgroundColor = '#000'
+    }
+}
+
+
+heading2.addEventListener('dblclick', () => {
+    if (heading.style.color === '') {
+        heading.style.color = '#000'
+        heading.style.backgroundColor = '#fff'
+    } else {
+        heading.style.color = 'red'
+        heading.style.backgroundColor = '#000'
+    }
+})
+
+
